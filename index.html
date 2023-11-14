@@ -22,53 +22,95 @@
 	</head>
 
 	<body>
-<div class="container"></div>
+		<div class="container"></div>
 
 		<header>
-			
-				<div class="container-navigation">
-					<button
-						type="button"
-						class="navigation__button js-open-menu mobile-only"
-						aria-expanded="false"
-						aria-controls="mobile-menu"
-					>
-						<svg class="menu-toggle__button" width="30" height="30">
-							<use href="./images/hamburger.svg#icon-menu_40px-1"></use>
-						</svg>
-					</button>
+			<!-- mobile menu start-->
+			<div class="container-navigation">
+				<button
+					type="button"
+					class="navigation__button js-open-menu mobile-only"
+					aria-expanded="false"
+					aria-controls="mobile-menu"
+				>
+					<svg class="menu-toggle__button" width="30" height="30">
+						<use href="./images/hamburger.svg#icon-menu_40px-1"></use>
+					</svg>
+				</button>
 
-					<nav>
-						<div class="webstudio">
-							<a href="index.html">
-								<span class="web">Web</span>
-								<span class="studio-header">Studio</span>
-							</a>
-						</div>
-						<div class="bookmarks-contact">
-							<ul class="bookmarks">
-								<li><a href="index.html" class="active">Agencja</a></li>
-								<li><a href="portfolio.html">Portfolio</a></li>
-								<li><a href="/contact">Kontakt</a></li>
-							</ul>
-							<ul class="contact">
-								<li class="contact-envelope">
-									<svg id="icon-envelope" width="16" height="12">
-										<use href="./images/icons.svg#icon-envelope"></use>
-									</svg>
-									<a href="mailto:info@devstudio.com">info@devstudio.com</a>
+				<div class="js-menu-container mobile-menu">
+					<button class="menu-button generic-button js-close-menu">x</button>
+					<menu class="menu">
+						<ul class="menu">
+							<li>
+								<a href="index.html" class="active"></a>
+								<h2>Agencja</h2>
+							</li>
+							<li>
+								<a href="portfolio.html"></a>
+								<h2>Portfolio</h2>
+							</li>
+							<li>
+								<a href="/contact"></a>
+								<h2>Kontakt</h2>
+							</li>
+						</ul>
+
+						<div class="menu-mobile-contact">
+							<div class="mobile-area">
+								<ul>
+									<li><h2 href="tel:+48111111111">+48 111 111 111</h2></li>
+								</ul>
+							</div>
+							<ul>
+								<li>
+									<h3 href="mailto:info@devstudio.com">info@devstudio.com</h3>
 								</li>
-								<li class="contact-smartphone">
-									<svg id="icon-smartphone" width="16" height="12">
-										<use href="./images/icons.svg#icon-smartphone"></use>
-									</svg>
-									<a href="tel:+48111111111">+48 111 111 111</a>
-								</li>
 							</ul>
 						</div>
-					</nav>
+						<div class="menu-mobile-socialmedia">
+							<ul>
+								<li><a>Instagram</a></li>
+								<li><a>Twitter</a></li>
+								<li><a>Facebook</a></li>
+								<li><a>Linkedin</a></li>
+							</ul>
+						</div>
+					</menu>
 				</div>
-			
+			</div>
+
+			<!-- mobile menu stop-->
+
+			<nav>
+				<div class="webstudio">
+					<a href="index.html">
+						<span class="web">Web</span>
+						<span class="studio-header">Studio</span>
+					</a>
+				</div>
+				<div class="bookmarks-contact">
+					<ul class="bookmarks">
+						<li><a href="index.html" class="active">Agencja</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="/contact">Kontakt</a></li>
+					</ul>
+					<ul class="contact">
+						<li class="contact-envelope">
+							<svg id="icon-envelope" width="16" height="12">
+								<use href="./images/icons.svg#icon-envelope"></use>
+							</svg>
+							<a href="mailto:info@devstudio.com">info@devstudio.com</a>
+						</li>
+						<li class="contact-smartphone">
+							<svg id="icon-smartphone" width="16" height="12">
+								<use href="./images/icons.svg#icon-smartphone"></use>
+							</svg>
+							<a href="tel:+48111111111">+48 111 111 111</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 		</header>
 		<main>
 			<div class="container-hero">
@@ -157,492 +199,439 @@
 				</div>
 			</div>
 
-			
-				<ul class="lorem-main-box two-by-two">
-					<li class="lorem-box">
-						<div class="container-svg-lorem">
-							<svg width="70" height="70">
-								<use href="./images/icons.svg#icon-antenna-1"></use>
-							</svg>
-						</div>
-						<p class="lorem-header">LOREM IPSUM</p>
-						<p class="lorem-text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
-							et malesuada
-						</p>
-					</li>
-					<li class="lorem-box">
-						<div class="container-svg-lorem">
-							<svg width="70" height="70">
-								<use href="./images/icons.svg#icon-clock-1"></use>
-							</svg>
-						</div>
-						<p class="lorem-header">LOREM IPSUM</p>
-						<p class="lorem-text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
-							et malesuada
-						</p>
-					</li>
-					<li class="lorem-box">
-						<div class="container-svg-lorem">
-							<svg width="70" height="70">
-								<use href="./images/icons.svg#icon-diagram-1"></use>
-							</svg>
-						</div>
-						<p class="lorem-header">LOREM IPSUM</p>
-						<p class="lorem-text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
-							et malesuada
-						</p>
-					</li>
-					<li class="lorem-box">
-						<div class="container-svg-lorem">
-							<svg width="70" height="70">
-								<use href="./images/icons.svg#icon-astronaut-1"></use>
-							</svg>
-						</div>
-						<p class="lorem-header">LOREM IPSUM</p>
-						<p class="lorem-text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
-							et malesuada
-						</p>
-					</li>
-				</ul>
-			
-
-			
-				<section class="work">
-					<div class="what-we-do">
-						<h2>Czym się zajmujemy</h2>
+			<ul class="lorem-main-box two-by-two">
+				<li class="lorem-box">
+					<div class="container-svg-lorem">
+						<svg width="70" height="70">
+							<use href="./images/icons.svg#icon-antenna-1"></use>
+						</svg>
 					</div>
-					<div class="images-work-what-we-do">
-						<ul class="work-img">
-							<div class="what-we-do-img">
+					<p class="lorem-header">LOREM IPSUM</p>
+					<p class="lorem-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
+						malesuada
+					</p>
+				</li>
+				<li class="lorem-box">
+					<div class="container-svg-lorem">
+						<svg width="70" height="70">
+							<use href="./images/icons.svg#icon-clock-1"></use>
+						</svg>
+					</div>
+					<p class="lorem-header">LOREM IPSUM</p>
+					<p class="lorem-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
+						malesuada
+					</p>
+				</li>
+				<li class="lorem-box">
+					<div class="container-svg-lorem">
+						<svg width="70" height="70">
+							<use href="./images/icons.svg#icon-diagram-1"></use>
+						</svg>
+					</div>
+					<p class="lorem-header">LOREM IPSUM</p>
+					<p class="lorem-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
+						malesuada
+					</p>
+				</li>
+				<li class="lorem-box">
+					<div class="container-svg-lorem">
+						<svg width="70" height="70">
+							<use href="./images/icons.svg#icon-astronaut-1"></use>
+						</svg>
+					</div>
+					<p class="lorem-header">LOREM IPSUM</p>
+					<p class="lorem-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
+						malesuada
+					</p>
+				</li>
+			</ul>
+
+			<section class="work">
+				<div class="what-we-do">
+					<h2>Czym się zajmujemy</h2>
+				</div>
+				<div class="images-work-what-we-do">
+					<ul class="work-img">
+						<div class="what-we-do-img">
+							<li>
+								<div class="overlay">APLIKACJE KOMPUTEROWE</div>
+								<picture>
+									<source
+										srcset="./images/box1_desktop_1x.jpg 1x, ./images/box1_desktop_2x.jpg 2x"
+										media="(min-width: 1200px)"
+									/>
+									<img src="./images/box1_desktop_1x.jpg" alt="write code" width="370" height="294" />
+								</picture>
+							</li>
+						</div>
+						<div class="what-we-do-img">
+							<li>
+								<div class="overlay">APLIKACJE MOBILNE</div>
+								<picture>
+									<source
+										srcset="./images/box2_desktop_1x.jpg 1x, ./images/box2_desktop_2x.jpg 2x"
+										media="(min-width: 1200px)"
+									/>
+									<img src="./images/box2_desktop_1x.jpg" alt="mobile apps" width="370" height="294" />
+								</picture>
+							</li>
+						</div>
+						<div class="what-we-do-img">
+							<li>
+								<div class="overlay">ROZWIĄZANIA GRAFICZNE</div>
+								<picture>
+									<source
+										srcset="./images/box3_desktop_1x.jpg 1x, ./images/box3_desktop_2x.jpg 2x"
+										media="(min-width: 1200px)"
+									/>
+									<img src="./images/box3_desktop_1x.jpg" alt="graphics solutions" width="370" height="294" />
+								</picture>
+							</li>
+						</div>
+					</ul>
+				</div>
+			</section>
+
+			<div class="our-team-background">
+				<section class="team">
+					<div class="our-team">
+						<h2>Nasz Zespół</h2>
+					</div>
+					<div class="images-team">
+						<ul class="images-persons-ul">
+							<div class="images-persons">
 								<li>
-									<div class="overlay">APLIKACJE KOMPUTEROWE</div>
 									<picture>
 										<source
-											srcset="./images/box1_desktop_1x.jpg 1x, ./images/box1_desktop_2x.jpg 2x"
+											srcset="./images/teamcard1_desktop_1x.jpg 1x, ./images/teamcard1_desktop_2x 2x"
 											media="(min-width: 1200px)"
 										/>
-										<img src="./images/box1_desktop_1x.jpg" alt="write code" width="370" height="294" />
+										<source
+											srcset="./images/teamcard1_tablet_1x.jpg 1x, ./images/teamcard1_tablet_2x 2x"
+											media="(min-width: 768px)"
+										/>
+										<source
+											srcset="./images/teamcard1_mobile_1x.jpg 1x, ./images/teamcard1_mobile_2x 2x"
+											media="(min-width: 480px)"
+										/>
+										<source
+											srcset="./images/teamcard1_mobile_1x.jpg 1x, ./images/teamcard1_mobile_2x 2x"
+											media="(min-width: 320px)"
+										/>
+										<img
+											src="./images/teamcard1_mobile_1x.jpg"
+											alt="John Doe Product Designer"
+											width="270"
+											height="260"
+										/>
 									</picture>
+									<p class="name">John Doe</p>
+									<p class="position-job">Product Designer</p>
 								</li>
+								<div class="svg-icon-position">
+									<div class="container-icon">
+										<svg id="icon-inst" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-instagram-2"></use>
+										</svg>
+									</div>
+									<div class="container-icon">
+										<svg id="icon-twitt" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-twitter-1"></use>
+										</svg>
+									</div>
+									<div class="container-icon">
+										<svg id="icon-face" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-facebook-1"></use>
+										</svg>
+									</div>
+									<div class="container-icon">
+										<svg id="icon-link" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-linkedin-1"></use>
+										</svg>
+									</div>
+								</div>
 							</div>
-							<div class="what-we-do-img">
+							<div class="images-persons">
 								<li>
-									<div class="overlay">APLIKACJE MOBILNE</div>
 									<picture>
 										<source
-											srcset="./images/box2_desktop_1x.jpg 1x, ./images/box2_desktop_2x.jpg 2x"
+											srcset="./images/teamcard2_desktop_1x.jpg 1x, ./images/teamcard2_desktop_2x 2x"
 											media="(min-width: 1200px)"
 										/>
-										<img src="./images/box2_desktop_1x.jpg" alt="mobile apps" width="370" height="294" />
+										<source
+											srcset="./images/teamcard2_tablet_1x.jpg 1x, ./images/teamcard2_tablet_2x 2x"
+											media="(min-width: 768px)"
+										/>
+										<source
+											srcset="./images/teamcard2_mobile_1x.jpg 1x, ./images/teamcard2_mobile_2x 2x"
+											media="(min-width: 480px)"
+										/>
+										<source
+											srcset="./images/teamcard2_mobile_1x.jpg 1x, ./images/teamcard2_mobile_2x 2x"
+											media="(min-width: 320px)"
+										/>
+										<img
+											src="./images/teamcard2_mobile_1x.jpg"
+											alt="John Doe Frontend Developer"
+											width="270"
+											height="260"
+										/>
 									</picture>
+									<p class="name">John Doe</p>
+									<p class="position-job">Frontend Developer</p>
 								</li>
+								<div class="svg-icon-position">
+									<div class="container-icon">
+										<svg id="icon-inst" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-instagram-2"></use>
+										</svg>
+									</div>
+									<div class="container-icon">
+										<svg id="icon-twitt" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-twitter-1"></use>
+										</svg>
+									</div>
+									<div class="container-icon">
+										<svg id="icon-face" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-facebook-1"></use>
+										</svg>
+									</div>
+									<div class="container-icon">
+										<svg id="icon-link" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-linkedin-1"></use>
+										</svg>
+									</div>
+								</div>
 							</div>
-							<div class="what-we-do-img">
+							<div class="images-persons">
 								<li>
-									<div class="overlay">ROZWIĄZANIA GRAFICZNE</div>
 									<picture>
 										<source
-											srcset="./images/box3_desktop_1x.jpg 1x, ./images/box3_desktop_2x.jpg 2x"
+											srcset="./images/teamcard3_desktop_1x.jpg 1x, ./images/teamcard3_desktop_2x 2x"
 											media="(min-width: 1200px)"
 										/>
-										<img src="./images/box3_desktop_1x.jpg" alt="graphics solutions" width="370" height="294" />
+										<source
+											srcset="./images/teamcard3_tablet_1x.jpg 1x, ./images/teamcard3_tablet_2x 2x"
+											media="(min-width: 768px)"
+										/>
+										<source
+											srcset="./images/teamcard3_mobile_1x.jpg 1x, ./images/teamcard3_mobile_2x 2x"
+											media="(min-width: 480px)"
+										/>
+										<source
+											srcset="./images/teamcard3_mobile_1x.jpg 1x, ./images/teamcard3_mobile_2x 2x"
+											media="(min-width: 320px)"
+										/>
+										<img src="./images/teamcard3_mobile_1x.jpg" alt="John Doe Marketing" width="270" height="260" />
 									</picture>
+									<p class="name">John Doe</p>
+									<p class="position-job">Marketing</p>
 								</li>
+								<div class="svg-icon-position">
+									<div class="container-icon">
+										<svg id="icon-inst" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-instagram-2"></use>
+										</svg>
+									</div>
+									<div class="container-icon">
+										<svg id="icon-twitt" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-twitter-1"></use>
+										</svg>
+									</div>
+									<div class="container-icon">
+										<svg id="icon-face" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-facebook-1"></use>
+										</svg>
+									</div>
+									<div class="container-icon">
+										<svg id="icon-link" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-linkedin-1"></use>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="images-persons">
+								<li>
+									<picture>
+										<source
+											srcset="./images/teamcard4_desktop_1x.jpg 1x, ./images/teamcard4_desktop_2x 2x"
+											media="(min-width: 1200px)"
+										/>
+										<source
+											srcset="./images/teamcard4_tablet_1x.jpg 1x, ./images/teamcard4_tablet_2x 2x"
+											media="(min-width: 768px)"
+										/>
+										<source
+											srcset="./images/teamcard4_mobile_1x.jpg 1x, ./images/teamcard4_mobile_2x 2x"
+											media="(min-width: 480px)"
+										/>
+										<source
+											srcset="./images/teamcard4_mobile_1x.jpg 1x, ./images/teamcard4_mobile_2x 2x"
+											media="(min-width: 320px)"
+										/>
+										<img
+											src="./images/teamcard4_mobile_1x.jpg"
+											alt="John Doe Product UI Designer"
+											width="270"
+											height="260"
+										/>
+									</picture>
+									<p class="name">John Doe</p>
+									<p class="position-job">UI Designer</p>
+								</li>
+								<div class="svg-icon-position">
+									<div class="container-icon">
+										<svg id="icon-inst" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-instagram-2"></use>
+										</svg>
+									</div>
+									<div class="container-icon">
+										<svg id="icon-twitt" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-twitter-1"></use>
+										</svg>
+									</div>
+									<div class="container-icon">
+										<svg id="icon-face" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-facebook-1"></use>
+										</svg>
+									</div>
+									<div class="container-icon">
+										<svg id="icon-link" width="20" height="20">
+											<use href="./images/icons-social-media.svg#icon-linkedin-1"></use>
+										</svg>
+									</div>
+								</div>
 							</div>
 						</ul>
 					</div>
-				</section>
-			
-				
-			<div class="our-team-background">
-				
-					<section class="team">
-						<div class="our-team">
-							<h2>Nasz Zespół</h2>
-						</div>
-						<div class="images-team">
-							<ul class="images-persons-ul">
-								<div class="images-persons">
-									<li>
-										<picture>
-											<source
-												srcset="./images/teamcard1_desktop_1x.jpg 1x, ./images/teamcard1_desktop_2x 2x"
-												media="(min-width: 1200px)"
-											/>
-											<source
-												srcset="./images/teamcard1_tablet_1x.jpg 1x, ./images/teamcard1_tablet_2x 2x"
-												media="(min-width: 768px)"
-											/>
-											<source
-												srcset="./images/teamcard1_mobile_1x.jpg 1x, ./images/teamcard1_mobile_2x 2x"
-												media="(min-width: 480px)"
-											/>
-											<source
-												srcset="./images/teamcard1_mobile_1x.jpg 1x, ./images/teamcard1_mobile_2x 2x"
-												media="(min-width: 320px)"
-											/>
-											<img
-												src="./images/teamcard1_mobile_1x.jpg"
-												alt="John Doe Product Designer"
-												width="270"
-												height="260"
-											/>
-										</picture>
-										<p class="name">John Doe</p>
-										<p class="position-job">Product Designer</p>
-									</li>
-									<div class="svg-icon-position">
-										<div class="container-icon">
-											<svg id="icon-inst" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-instagram-2"></use>
-											</svg>
-										</div>
-										<div class="container-icon">
-											<svg id="icon-twitt" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-twitter-1"></use>
-											</svg>
-										</div>
-										<div class="container-icon">
-											<svg id="icon-face" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-facebook-1"></use>
-											</svg>
-										</div>
-										<div class="container-icon">
-											<svg id="icon-link" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-linkedin-1"></use>
-											</svg>
-										</div>
-									</div>
-								</div>
-								<div class="images-persons">
-									<li>
-										<picture>
-											<source
-												srcset="./images/teamcard2_desktop_1x.jpg 1x, ./images/teamcard2_desktop_2x 2x"
-												media="(min-width: 1200px)"
-											/>
-											<source
-												srcset="./images/teamcard2_tablet_1x.jpg 1x, ./images/teamcard2_tablet_2x 2x"
-												media="(min-width: 768px)"
-											/>
-											<source
-												srcset="./images/teamcard2_mobile_1x.jpg 1x, ./images/teamcard2_mobile_2x 2x"
-												media="(min-width: 480px)"
-											/>
-											<source
-												srcset="./images/teamcard2_mobile_1x.jpg 1x, ./images/teamcard2_mobile_2x 2x"
-												media="(min-width: 320px)"
-											/>
-											<img
-												src="./images/teamcard2_mobile_1x.jpg"
-												alt="John Doe Frontend Developer"
-												width="270"
-												height="260"
-											/>
-										</picture>
-										<p class="name">John Doe</p>
-										<p class="position-job">Frontend Developer</p>
-									</li>
-									<div class="svg-icon-position">
-										<div class="container-icon">
-											<svg id="icon-inst" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-instagram-2"></use>
-											</svg>
-										</div>
-										<div class="container-icon">
-											<svg id="icon-twitt" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-twitter-1"></use>
-											</svg>
-										</div>
-										<div class="container-icon">
-											<svg id="icon-face" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-facebook-1"></use>
-											</svg>
-										</div>
-										<div class="container-icon">
-											<svg id="icon-link" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-linkedin-1"></use>
-											</svg>
-										</div>
-									</div>
-								</div>
-								<div class="images-persons">
-									<li>
-										<picture>
-											<source
-												srcset="./images/teamcard3_desktop_1x.jpg 1x, ./images/teamcard3_desktop_2x 2x"
-												media="(min-width: 1200px)"
-											/>
-											<source
-												srcset="./images/teamcard3_tablet_1x.jpg 1x, ./images/teamcard3_tablet_2x 2x"
-												media="(min-width: 768px)"
-											/>
-											<source
-												srcset="./images/teamcard3_mobile_1x.jpg 1x, ./images/teamcard3_mobile_2x 2x"
-												media="(min-width: 480px)"
-											/>
-											<source
-												srcset="./images/teamcard3_mobile_1x.jpg 1x, ./images/teamcard3_mobile_2x 2x"
-												media="(min-width: 320px)"
-											/>
-											<img src="./images/teamcard3_mobile_1x.jpg" alt="John Doe Marketing" width="270" height="260" />
-										</picture>
-										<p class="name">John Doe</p>
-										<p class="position-job">Marketing</p>
-									</li>
-									<div class="svg-icon-position">
-										<div class="container-icon">
-											<svg id="icon-inst" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-instagram-2"></use>
-											</svg>
-										</div>
-										<div class="container-icon">
-											<svg id="icon-twitt" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-twitter-1"></use>
-											</svg>
-										</div>
-										<div class="container-icon">
-											<svg id="icon-face" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-facebook-1"></use>
-											</svg>
-										</div>
-										<div class="container-icon">
-											<svg id="icon-link" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-linkedin-1"></use>
-											</svg>
-										</div>
-									</div>
-								</div>
-								<div class="images-persons">
-									<li>
-										<picture>
-											<source
-												srcset="./images/teamcard4_desktop_1x.jpg 1x, ./images/teamcard4_desktop_2x 2x"
-												media="(min-width: 1200px)"
-											/>
-											<source
-												srcset="./images/teamcard4_tablet_1x.jpg 1x, ./images/teamcard4_tablet_2x 2x"
-												media="(min-width: 768px)"
-											/>
-											<source
-												srcset="./images/teamcard4_mobile_1x.jpg 1x, ./images/teamcard4_mobile_2x 2x"
-												media="(min-width: 480px)"
-											/>
-											<source
-												srcset="./images/teamcard4_mobile_1x.jpg 1x, ./images/teamcard4_mobile_2x 2x"
-												media="(min-width: 320px)"
-											/>
-											<img
-												src="./images/teamcard4_mobile_1x.jpg"
-												alt="John Doe Product UI Designer"
-												width="270"
-												height="260"
-											/>
-										</picture>
-										<p class="name">John Doe</p>
-										<p class="position-job">UI Designer</p>
-									</li>
-									<div class="svg-icon-position">
-										<div class="container-icon">
-											<svg id="icon-inst" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-instagram-2"></use>
-											</svg>
-										</div>
-										<div class="container-icon">
-											<svg id="icon-twitt" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-twitter-1"></use>
-											</svg>
-										</div>
-										<div class="container-icon">
-											<svg id="icon-face" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-facebook-1"></use>
-											</svg>
-										</div>
-										<div class="container-icon">
-											<svg id="icon-link" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-linkedin-1"></use>
-											</svg>
-										</div>
-									</div>
-								</div>
-							</ul>
-						</div>
 
-						<div class="container">
-							<div class="our-clients"><h2>Nasi klienci</h2></div>
-							<div class="container-clients">
-								<div class="svg-client-position">
-									<div class="container-svg-client">
-										<svg id="client-1" width="106" height="60">
-											<use href="./images/icons.svg#icon-client-1"></use>
-										</svg>
-									</div>
+					<div class="container">
+						<div class="our-clients"><h2>Nasi klienci</h2></div>
+						<div class="container-clients">
+							<div class="svg-client-position">
+								<div class="container-svg-client">
+									<svg id="client-1" width="106" height="60">
+										<use href="./images/icons.svg#icon-client-1"></use>
+									</svg>
 								</div>
-								<div class="svg-client-position">
-									<div class="container-svg-client">
-										<svg id="client-2" width="106" height="60">
-											<use href="./images/icons.svg#icon-client-2"></use>
-										</svg>
-									</div>
+							</div>
+							<div class="svg-client-position">
+								<div class="container-svg-client">
+									<svg id="client-2" width="106" height="60">
+										<use href="./images/icons.svg#icon-client-2"></use>
+									</svg>
 								</div>
-								<div class="svg-client-position">
-									<div class="container-svg-client">
-										<svg id="client-3" width="106" height="60">
-											<use href="./images/icons.svg#icon-client-3"></use>
-										</svg>
-									</div>
+							</div>
+							<div class="svg-client-position">
+								<div class="container-svg-client">
+									<svg id="client-3" width="106" height="60">
+										<use href="./images/icons.svg#icon-client-3"></use>
+									</svg>
 								</div>
-								<div class="svg-client-position">
-									<div class="container-svg-client">
-										<svg id="client-4" width="106" height="60">
-											<use href="./images/icons.svg#icon-client-4"></use>
-										</svg>
-									</div>
+							</div>
+							<div class="svg-client-position">
+								<div class="container-svg-client">
+									<svg id="client-4" width="106" height="60">
+										<use href="./images/icons.svg#icon-client-4"></use>
+									</svg>
 								</div>
-								<div class="svg-client-position">
-									<div class="container-svg-client">
-										<svg id="client-5" width="106" height="60">
-											<use href="./images/icons.svg#icon-client-5"></use>
-										</svg>
-									</div>
+							</div>
+							<div class="svg-client-position">
+								<div class="container-svg-client">
+									<svg id="client-5" width="106" height="60">
+										<use href="./images/icons.svg#icon-client-5"></use>
+									</svg>
 								</div>
-								<div class="svg-client-position">
-									<div class="container-svg-client">
-										<svg id="client-6" width="106" height="60">
-											<use href="./images/icons.svg#icon-client-6"></use>
-										</svg>
-									</div>
+							</div>
+							<div class="svg-client-position">
+								<div class="container-svg-client">
+									<svg id="client-6" width="106" height="60">
+										<use href="./images/icons.svg#icon-client-6"></use>
+									</svg>
 								</div>
 							</div>
 						</div>
+					</div>
 
-						<footer>
-							
-								<div class="footer-wrap">
-									<div class="footer-address">
-										<div class="webstudio-footer">
-											<a href=" index.html">
-												<span class="web">Web</span>
-												<span class="studio-footer">Studio</span>
-											</a>
-										</div>
-										<address>
-											<p class="city">m. Warszawa, Aleje Jerozolimskie 21</p>
-											<ul class="container-contacts-footer">
-												<div class="contact-footer-mail">
-													<li>
-														<a href="mailto:info@devstudio.com">info@devstudio.com</a>
-													</li>
-												</div>
-												<div class="contact-footer-tel">
-													<li>
-														<a href="tel:+48111111111">+48 111 111 111</a>
-													</li>
-												</div>
-											</ul>
-										</address>
-									</div>
-									<div class="container-join">
-										<p class="join">DOŁĄCZ DO NAS</p>
-										<div class="container-icon-footer">
-											<svg id="icon-inst-footer" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-instagram-2"></use>
-											</svg>
-										</div>
-										<div class="container-icon-footer">
-											<svg id="icon-twitt-footer" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-twitter-1"></use>
-											</svg>
-										</div>
-										<div class="container-icon-footer">
-											<svg id="icon-face-footer" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-facebook-1"></use>
-											</svg>
-										</div>
-										<div class="container-icon-footer">
-											<svg id="icon-link-footer" width="20" height="20">
-												<use href="./images/icons-social-media.svg#icon-linkedin-1"></use>
-											</svg>
-										</div>
-									</div>
-									<form>
-										<div class="container-newsletter">
-											<p class="sign-up">ZAPISZ SIĘ DO NEWSLETTERA</p>
-											<label class="label-footer">
-												<div class="input-email">
-													<input type="text" name="email" placeholder="E-mail" class="email-input" />
-												</div>
-												<div class="btn-sign-up">
-													<button type="submit" class="btn-submit">
-														Zapisz się
-														<svg id="icon-send" width="24" height="24">
-															<use href="./images/icons-modal.svg#icon-send"></use>
-														</svg>
-													</button>
-												</div>
-											</label>
-										</div>
-									</form>
+					<footer>
+						<div class="footer-wrap">
+							<div class="footer-address">
+								<div class="webstudio-footer">
+									<a href=" index.html">
+										<span class="web">Web</span>
+										<span class="studio-footer">Studio</span>
+									</a>
 								</div>
-							
-						</footer>
-						<script src="./js/modal.js"></script>
-						<script src="./js/mobile-menu.js"></script>
-						<body>
-							<html></html>
-						</body>
-					</section>
-				
+								<address>
+									<p class="city">m. Warszawa, Aleje Jerozolimskie 21</p>
+									<ul class="container-contacts-footer">
+										<div class="contact-footer-mail">
+											<li>
+												<a href="mailto:info@devstudio.com">info@devstudio.com</a>
+											</li>
+										</div>
+										<div class="contact-footer-tel">
+											<li>
+												<a href="tel:+48111111111">+48 111 111 111</a>
+											</li>
+										</div>
+									</ul>
+								</address>
+							</div>
+							<div class="container-join">
+								<p class="join">DOŁĄCZ DO NAS</p>
+								<div class="container-icon-footer">
+									<svg id="icon-inst-footer" width="20" height="20">
+										<use href="./images/icons-social-media.svg#icon-instagram-2"></use>
+									</svg>
+								</div>
+								<div class="container-icon-footer">
+									<svg id="icon-twitt-footer" width="20" height="20">
+										<use href="./images/icons-social-media.svg#icon-twitter-1"></use>
+									</svg>
+								</div>
+								<div class="container-icon-footer">
+									<svg id="icon-face-footer" width="20" height="20">
+										<use href="./images/icons-social-media.svg#icon-facebook-1"></use>
+									</svg>
+								</div>
+								<div class="container-icon-footer">
+									<svg id="icon-link-footer" width="20" height="20">
+										<use href="./images/icons-social-media.svg#icon-linkedin-1"></use>
+									</svg>
+								</div>
+							</div>
+							<form>
+								<div class="container-newsletter">
+									<p class="sign-up">ZAPISZ SIĘ DO NEWSLETTERA</p>
+									<label class="label-footer">
+										<div class="input-email">
+											<input type="text" name="email" placeholder="E-mail" class="email-input" />
+										</div>
+										<div class="btn-sign-up">
+											<button type="submit" class="btn-submit">
+												Zapisz się
+												<svg id="icon-send" width="24" height="24">
+													<use href="./images/icons-modal.svg#icon-send"></use>
+												</svg>
+											</button>
+										</div>
+									</label>
+								</div>
+							</form>
+						</div>
+					</footer>
+					<script src="./js/modal.js"></script>
+					<script src="./js/mobile-menu.js"></script>
+					<body>
+						<html></html>
+					</body>
+				</section>
 			</div>
-
-
-<!-- mobile menu start-->
-            <div class="js-menu-container mobile-menu">
-
-	<button class="menu-button generic-button js-close-menu">
-                x
-              </button>
-
-
-              <ul class="menu">
-                <li><a href="index.html" class="active">                 
-              </a><h2>Agencja</h2> </li>
-                <li><a href="portfolio.html"></a>
-                <h2>Portfolio</h2></li>
-                <li><a href="/contact"></a>
-                <h2>Kontakt</h2></li>
-                </ul>
-
-
-                <div class="menu-mobile-contact">
-                  <div class="mobile-area">
-                    <ul><li><h2 href="tel:+48111111111">+48 111 111 111</h2></li></ul>
-                  
-                  </div>
-                  <ul><li>
-                    <h3 href="mailto:info@devstudio.com">info@devstudio.com</h3>
-                  </li> </ul>
-                  
-
-                </div>
-                <div class="menu-mobile-socialmedia">
-                  <ul><li><a>Instagram</a></li>
-                  <li><a>Twitter</a></li>
-                  <li><a>Facebook</a></li>
-                  <li><a>Linkedin</a></li></ul>
-                
-
-                </div>
-              </menu>
-            </div></div>
-
-            <!-- mobile menu stop-->
-
-
 		</main>
 	</body>
 </html>
